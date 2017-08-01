@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		273DBDC91F30C08100054255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDC81F30C08100054255 /* AppDelegate.swift */; };
-		273DBDCB1F30C08100054255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDCA1F30C08100054255 /* ViewController.swift */; };
 		273DBDCE1F30C08100054255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273DBDCC1F30C08100054255 /* Main.storyboard */; };
 		273DBDD01F30C08100054255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273DBDCF1F30C08100054255 /* Assets.xcassets */; };
 		273DBDD31F30C08100054255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273DBDD11F30C08100054255 /* LaunchScreen.storyboard */; };
+		273DBDDB1F30C15800054255 /* turtleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDDA1F30C15800054255 /* turtleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		273DBDC51F30C08100054255 /* turtleLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turtleLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		273DBDC81F30C08100054255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		273DBDCA1F30C08100054255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		273DBDCD1F30C08100054255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		273DBDCF1F30C08100054255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		273DBDD21F30C08100054255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		273DBDD41F30C08100054255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273DBDDA1F30C15800054255 /* turtleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turtleViewController.swift; sourceTree = "<group>"; };
+		27DD279C1F30F09C00421F8A /* Finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Finish.png; sourceTree = "<group>"; };
+		27DD279D1F30F09D00421F8A /* 三大天王.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "三大天王.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,13 @@
 			isa = PBXGroup;
 			children = (
 				273DBDC81F30C08100054255 /* AppDelegate.swift */,
-				273DBDCA1F30C08100054255 /* ViewController.swift */,
 				273DBDCC1F30C08100054255 /* Main.storyboard */,
+				273DBDDA1F30C15800054255 /* turtleViewController.swift */,
 				273DBDCF1F30C08100054255 /* Assets.xcassets */,
 				273DBDD11F30C08100054255 /* LaunchScreen.storyboard */,
 				273DBDD41F30C08100054255 /* Info.plist */,
+				27DD279D1F30F09D00421F8A /* 三大天王.png */,
+				27DD279C1F30F09C00421F8A /* Finish.png */,
 			);
 			path = turtleLove;
 			sourceTree = "<group>";
@@ -135,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				273DBDCB1F30C08100054255 /* ViewController.swift in Sources */,
+				273DBDDB1F30C15800054255 /* turtleViewController.swift in Sources */,
 				273DBDC91F30C08100054255 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
